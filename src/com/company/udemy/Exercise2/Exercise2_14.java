@@ -6,7 +6,6 @@ public class Exercise2_14 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //    exercise 2.14
-        System.out.println(max(23,21,34));
         System.out.println("1 2 3 4");
         System.out.print(1 + " ");
         System.out.print(2 + " ");
@@ -40,14 +39,14 @@ public class Exercise2_14 {
         }
 
         //exercise 2.17
-        System.out.println("Enter your integers below");
+        System.out.println("Enter your 3 integers below");
         int r = scanner.nextInt();
         int s = scanner.nextInt();
         int t = scanner.nextInt();
 
-        System.out.println(r + s + t);
-        System.out.println((r + s + t) / 3);
-        System.out.println(r * s * t);
+        System.out.println( "Sum is " + r + s + t);
+        System.out.println(("Average is " + (r + s + t) / 3));
+        System.out.println("product is " + (r * s * t));
 
         System.out.println(max(r,s,t));
         System.out.println(min(r,s,t));
@@ -56,6 +55,7 @@ public class Exercise2_14 {
         System.out.printf("%s%n%s%n%s%n%s%n%s%n%s%n%s%n%s%n%s%n%s",
                 "**********", "*        *", "*        *", "*        *", "*        *", "*        *"
                 , "*        *", "*        *", "*        *","**********");
+        System.out.println();
 
         //exercise 25
 
@@ -71,7 +71,7 @@ public class Exercise2_14 {
 
         //exercise 2.26
         //multiples of a number are numbers it can perfectly divide
-        System.out.println("Enter thr integers");
+        System.out.println("Enter the integers to find the first's multiples");
         int xx = scanner.nextInt();
         int yy = scanner.nextInt();
         if(yy%xx == 0){
