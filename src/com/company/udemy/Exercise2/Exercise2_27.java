@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exercise2_27 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         //exercise 2.27
         System.out.println("* * * * *");
         System.out.println(" * * * * *");
